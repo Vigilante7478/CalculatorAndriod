@@ -25,5 +25,13 @@ class MainActivity : AppCompatActivity() {
             val n3: Int = n1 * n2
             ans.setText(n3.toString())
         }
+
+        div.setOnClickListener(){
+            val n1: Float = no1.getText().toString().toFloat()
+            val n2: Float = no2.getText().toString().toFloat()
+
+            val n3: Float = n1 / n2
+            ans.setText(n3.toString())
+        }
     }
 }
